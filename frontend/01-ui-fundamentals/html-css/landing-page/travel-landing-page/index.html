@@ -1,145 +1,267 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Landing Page</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="logo">
-        <a href="#">
-          <img src="./assets/logo/logo-chudus.png" alt="Chudus Travel Logo" />
-        </a>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Landing Page</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="./assets/logo/logo-chudus.png" alt="Chudus Travel Logo" />
+      </a>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#section-about">Về chúng tôi</a></li>
+        <li><a href="#tour-1">Tours nổi bật trong nước</a></li>
+        <li><a href="#tour-2">Tours nổi bật quốc tế</a></li>
+        <li><a href="#tour-3">Tours nổi bật biển đảo</a></li>
+        <li><a href="#memory">Nhật kí hành trình</a></li>
+        <li><a href="#section-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="site-cover" id="section-home">
+      <div class="container">
+        <img id="banner" src="./assets/images/banner.jpg" alt="Travel Banner" />
       </div>
-      <nav aria-label="Main Navigation">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#section-about">Về chúng tôi</a></li>
-          <li><a href="#tour-1">Tours trong nước</a></li>
-          <li><a href="#tour-2">Tours quốc tế</a></li>
-          <li><a href="#tour-3">Tours biển đảo</a></li>
-          <li><a href="#memory">Nhật kí hành trình</a></li>
-          <li><a href="#section-contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    </section>
 
-    <main>
-      <section class="site-cover" id="section-home">
-        <div class="container">
-          <img
-            id="banner"
-            src="./assets/images/banner.jpg"
-            alt="Travel Banner"
-          />
+    <section class="site-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title">Giới thiệu</h2>
+          <div class="about-contents">
+            <img id="about-img" src="./assets/logo/logo-chudus-1.jpg" alt="logo" />
+            <div class="about-intro">
+              <h3>Về chúng tôi</h3>
+              <p>
+                Du lịch ngày nay đã trở thành nhu cầu của mỗi chúng ta. Là một
+                trong những đơn vị hoạt động kinh doanh trong lĩnh vực truyền
+                thông và du lịch tại Việt Nam, từ khi thành lập đến nay,
+                <span>chu du s</span>
+                đã có những bước tiến vượt bậc. Với đội ngũ nhân viên giỏi,
+                nhiệt tình, đam mê nghề nghiệp, những hướng dẫn viên nhiều năm
+                kinh nghiệm trong lĩnh vực du lịch, phục vụ du lịch, đã có
+                đóng góp không nhỏ cho ngành du lịch Việt Nam.
+              </p>
+              <h3>Lĩnh vực hoạt động</h3>
+              <ul class="activity">
+                <li>Du lịch trong nước.</li>
+                <li>Du lịch ngoài nước.</li>
+                <li>Dịch vụ Visa, passport</li>
+                <li>
+                  Dịch vụ du lịch: cho thuê xe ô tô, phòng khách sạn, vé máy
+                  bay,...
+                </li>
+              </ul>
+              <h3>Quan niệm kinh doanh</h3>
+              <p>
+                <span>chu du S</span> luôn luôn quan niệm:
+                <span class="philosophy">
+                  "sự hài lòng đến từ cảm nhận khách hàng và chúng tôi chăm
+                  chút cho từng cảm nhận đó".</span>
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="site-section" id="tour-1">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title"><span>Tours nổi bật trong nước</span></h2>
+          <p class="align-middle text-center"><a href="https://www.chudus.vn/product/search/tra_type-1" class="link-underline-primary">Xem tất cả</a></p>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn1.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR HÀ GIANG - CAO BẰNG 5 NGÀY 4 ĐÊM TỪ HCM
+                </h5>
+                <a href="https://www.chudus.vn/tour-ha-giang-cao-bang-5-ngay-4-dem-tu-hcm-p160.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn2.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR 2 NGÀY 1 ĐÊM MÙ CANG CHẢI - ĐÈO KHAU PHẠ - TÚ LỆ                 
+                </h5>
+                <a href="https://www.chudus.vn/tour-2-ngay-1-dem-mu-cang-chai-deo-khau-pha-tu-le-p159.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn3.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR MIỀN BẮC 5 NGÀY 4 ĐÊM: SÀI GÒN - YÊN BÁI - MÙ CĂNG CHẢI - SAPA - FANSIPAN                  
+                </h5>
+                <a href="https://www.chudus.vn/tour-mien-bac-5-ngay-4-dem-sai-gon-yen-bai-mu-cang-chai-sapa-fansipan-p158.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn4.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR MIỀN TÂY 3N2D: SÀI GÒN – MỸ THO – BẾN TRE – CHÂU ĐỐC- CẦN THƠ – CHỢ NỔI                  
+                </h5>
+                <a href="https://www.chudus.vn/tour-mien-tay-3n2d-sai-gon-my-tho-ben-tre-chau-doc-can-tho-cho-noi-p156.htmlhttps://www.chudus.vn/tour-mien-tay-3n2d-sai-gon-my-tho-ben-tre-chau-doc-can-tho-cho-noi-p156.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn5.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">KHÁM PHÁ TÂY NGUYÊN ĐĂK LĂK GIA LAI KON TUM MĂNG ĐEN 5 NGÀY 4 ĐÊM
+                  
+                </h5>
+                <a href="https://www.chudus.vn/kham-pha-tay-nguyen-dak-lak-gia-lai-kon-tum-mang-den-5-ngay-4-dem-p155.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-trong-nuoc/tn6.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">KHÁM PHÁ TÂY NGUYÊN ĐĂK LĂK GIA LAI KON TUM 3 NGÀY 2 ĐÊM                  
+                </h5>
+                <a href="https://www.chudus.vn/kham-pha-tay-nguyen-dak-lak-gia-lai-kon-tum-3-ngay-2-dem-p154.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
-      <section class="site-section" id="section-about">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title">Giới thiệu</h2>
-            <div class="about-contents">
-              <img
-                id="about-img"
-                src="./assets/logo/logo-chudus-1.jpg"
-                alt="logo"
-              />
-              <div class="about-intro">
-                <h3>Về chúng tôi</h3>
-                <p>
-                  Du lịch ngày nay đã trở thành nhu cầu của mỗi chúng ta. Là một
-                  trong những đơn vị hoạt động kinh doanh trong lĩnh vực truyền
-                  thông và du lịch tại Việt Nam, từ khi thành lập đến nay,
-                  <span>chu du s</span>
-                  đã có những bước tiến vượt bậc. Với đội ngũ nhân viên giỏi,
-                  nhiệt tình, đam mê nghề nghiệp, những hướng dẫn viên nhiều năm
-                  kinh nghiệm trong lĩnh vực du lịch, phục vụ du lịch, đã có
-                  đóng góp không nhỏ cho ngành du lịch Việt Nam.
-                </p>
-                <h3>Lĩnh vực hoạt động</h3>
-                <ul class="activity">
-                  <li>Du lịch trong nước.</li>
-                  <li>Du lịch ngoài nước.</li>
-                  <li>Dịch vụ Visa, passport</li>
-                  <li>
-                    Dịch vụ du lịch: cho thuê xe ô tô, phòng khách sạn, vé máy
-                    bay,...
-                  </li>
-                </ul>
-                <h3>Quan niệm kinh doanh</h3>
-                <p>
-                  <span>chu du S</span> luôn luôn quan niệm:
-                  <span class="philosophy">
-                    "sự hài lòng đến từ cảm nhận khách hàng và chúng tôi chăm
-                    chút cho từng cảm nhận đó".</span
-                  >
-                </p>
+    <section class="site-section" id="tour-2">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title"><span>Tours nổi bật quốc tế</span></h2>
+           <p class="align-middle text-center"><a href="https://www.chudus.vn/product/search/tra_type-2" class="link-underline-primary">Xem tất cả</a></p>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt1.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR THÁI LAN 5 NGÀY 4 ĐÊM BANGKOK - PATTAYA MUANG - BORAN - VƯỜN KHINH KHÍ CẦU
+                </h5>
+                <a href="https://www.chudus.vn/tour-thai-lan-5-ngay-4-dem-bangkok-pattaya-muang-boran-vuon-khinh-khi-cau-p157.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt2.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR 5N4D KHÁM PHÁ ĐẢO RỒNG TIOMAN - MALLACA – JOHOR BAHRU              
+                </h5>
+                <a href="https://www.chudus.vn/tour-5n4d-kham-pha-dao-rong-tioman-mallaca-johor-bahru-p137.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt3.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR 5N4D KHÁM PHÁ THIÊN ĐƯỜNG BIỂN ĐẢO:  EL NIDO – PALAWAN                 
+                </h5>
+                <a href="https://www.chudus.vn/tour-5n4d-kham-pha-thien-duong-bien-dao-el-nido-palawan-p135.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt4.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR THÁI LAN 4N3D: THIÊN ĐƯỜNG BIỂN PHUKET - ĐẢO PHI PHI               
+                </h5>
+                <a href="https://www.chudus.vn/tour-thai-lan-4n3d-thien-duong-bien-phuket-dao-phi-phi-p116.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt5.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR TRUNG QUỐC 6N5D: THÀNH ĐÔ - CỬU TRẠI CÂU - LẠC SƠN ĐẠI PHẬT: THIÊN ĐƯỜNG NƠI HẠ GIỚI
+                  
+                </h5>
+                <a href="https://www.chudus.vn/tour-trung-quoc-7n6d-thuong-hai-bac-kinh-hang-chau-o-tran-p115.html" class="btn btn-primary">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="./assets//images/tour-quoc-te/qt6.jpg" class="card-img-top" alt="hinh anh tour" />
+              <div class="card-body">
+                <h5 class="card-title">TOUR NHẬT BẢN 6N5D: CUNG ĐƯỜNG VÀNG MÙA HOA ANH ĐÀO                  
+                </h5>
+                <a href="https://www.chudus.vn/tour-nhat-ban-6n5d-cung-duong-vang-mua-hoa-anh-dao-p94.html" class="btn btn-primary">Xem thêm</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="site-section" id="tour-1">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title"><span>Tours trong nước</span></h2>
-            <div class="grid">
-              <div class="card" aria-label="Bali">🏝 Bali</div>
-              <div class="card" aria-label="Paris">🗼 Paris</div>
-              <div class="card" aria-label="Tokyo">🗾 Tokyo</div>
-              <div class="card" aria-label="Swiss">🏔 Swiss</div>
-            </div>
+    <section class="site-section" id="tour-3">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title"><span>Tours biển đảo</span></h2>
+          <div class="grid">
+            <div class="card" aria-label="Bali">🏝 Bali</div>
+            <div class="card" aria-label="Paris">🗼 Paris</div>
+            <div class="card" aria-label="Tokyo">🗾 Tokyo</div>
+            <div class="card" aria-label="Swiss">🏔 Swiss</div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="site-section" id="tour-2">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title"><span>Tours quốc tế</span></h2>
-            <div class="grid">
-              <div class="card" aria-label="Bali">🏝 Bali</div>
-              <div class="card" aria-label="Paris">🗼 Paris</div>
-              <div class="card" aria-label="Tokyo">🗾 Tokyo</div>
-              <div class="card" aria-label="Swiss">🏔 Swiss</div>
-            </div>
+    <section class="site-section" id="memory">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title"><span>Nhật ký hành trình</span></h2>
+          <div class="group-imgs">
+             <img src="./assets/images/nhat-ki-du-lich/nk1.jpg" class="rounded float-start" alt="nhat ki anh du lich">
+             <img src="./assets/images/nhat-ki-du-lich/nk2.jpg" class="rounded float-start" alt="nhat ki anh du lich">
+             <img src="./assets/images/nhat-ki-du-lich/nk3.jpg" class="rounded float-start" alt="nhat ki anh du lich">
+             <img src="./assets/images/nhat-ki-du-lich/nk4.jpg" class="rounded float-start" alt="nhat ki anh du lich">
+             <img src="./assets/images/nhat-ki-du-lich/nk5.jpg" class="rounded float-start" alt="nhat ki anh du lich">
+             <img src="./assets/images/nhat-ki-du-lich/nk6.jpg" class="rounded float-start" alt="nhat ki anh du lich"> 
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="site-section" id="section-contact">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title"><span>Thông tin liên hệ</span></h2>
+          <div class="group-imgs">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 
-      <section class="site-section" id="tour-3">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title"><span>Tours biển đảo</span></h2>
-            <div class="grid">
-              <div class="card" aria-label="Bali">🏝 Bali</div>
-              <div class="card" aria-label="Paris">🗼 Paris</div>
-              <div class="card" aria-label="Tokyo">🗾 Tokyo</div>
-              <div class="card" aria-label="Swiss">🏔 Swiss</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="site-section" id="memory">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title"><span>Nhật ký hành trình</span></h2>
-            <div class="group-imgs"></div>
-          </div>
-        </div>
-      </section>
-      <section class="site-section" id="section-contact">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title"><span>Thông tin liên hệ</span></h2>
-            <div class="group-imgs"></div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
