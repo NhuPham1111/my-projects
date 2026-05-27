@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6", //Convert TS → JavaScript ES6
+    "module": "commonjs", //Dùng module system của NodeJS
+    "strict": true, //Bật kiểm tra type nghiêm ngặt
+    "esModuleInterop": true, //Import Express kiểu đẹp
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
