@@ -1,0 +1,20 @@
+# Dependencies and generated outputs inside the Remotion project
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.remotion/
+**/out/
+
+# Local environment files; keep example templates versioned
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local agent/editor and operating system files
+**/.agents/
+**/.claude/
+**/skills-lock.json
+.DS_Store
+Thumbs.db
+*.log

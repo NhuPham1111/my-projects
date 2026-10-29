@@ -1,0 +1,22 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+build/
+coverage/
+.remotion/
+out/
+
+# Local environment files; keep example templates versioned
+.env
+.env.*
+!.env.example
+
+# Operating system and debug files
+.DS_Store
+Thumbs.db
+*.log
+
+# Local agent configuration, not part of the video source
+.agents/
+.claude/
+skills-lock.json
